@@ -58,7 +58,7 @@ local themes = {
 local themeStyles = {
     DarkTheme = {
         SchemeColor = Color3.fromRGB(64, 64, 64),
-        Background = Color3.fromRGB(245, 245, 245),
+        Background = Color3.fromRGB(0, 0, 0),
         Header = Color3.fromRGB(0, 0, 0),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
@@ -171,9 +171,9 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Serpent
     else
         if themeList.SchemeColor == nil then
-            themeList.SchemeColor = Color3.fromRGB(255, 255, 255)
+            themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
         elseif themeList.Background == nil then
-            themeList.Background = Color3.fromRGB(200, 200, 200)
+            themeList.Background = Color3.fromRGB(36, 37, 43)
         elseif themeList.Header == nil then
             themeList.Header = Color3.fromRGB(28, 29, 34)
         elseif themeList.TextColor == nil then
