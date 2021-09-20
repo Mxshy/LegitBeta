@@ -171,9 +171,9 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Serpent
     else
         if themeList.SchemeColor == nil then
-            themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
+            themeList.SchemeColor = Color3.fromRGB(255, 255, 255)
         elseif themeList.Background == nil then
-            themeList.Background = Color3.fromRGB(36, 37, 43)
+            themeList.Background = Color3.fromRGB(200, 200, 200)
         elseif themeList.Header == nil then
             themeList.Header = Color3.fromRGB(28, 29, 34)
         elseif themeList.TextColor == nil then
